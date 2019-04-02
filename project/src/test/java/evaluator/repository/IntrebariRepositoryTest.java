@@ -61,5 +61,6 @@ public class IntrebariRepositoryTest {
 	@Test
 	public void addIntrebare3() throws DuplicateIntrebareException, InputValidationFailedException {
 		this.appController.addNewIntrebare(intrebare3);
+		assert this.appController.exists(intrebare3);
 	}
 }

@@ -29,6 +29,7 @@ public class AppControllerTest {
 		Intrebare intrebare = getNewIntrebare();
 		intrebare.setDomeniu(getStringOfLength(29, false));
 		appController.addNewIntrebare(intrebare);
+		assert appController.exists(intrebare);
 	}
 
 	@Test
@@ -36,6 +37,7 @@ public class AppControllerTest {
 		Intrebare intrebare = getNewIntrebare();
 		intrebare.setDomeniu(getStringOfLength(30, false));
 		appController.addNewIntrebare(intrebare);
+		assert appController.exists(intrebare);
 	}
 
 	@Test(expected = InputValidationFailedException.class)
@@ -50,6 +52,7 @@ public class AppControllerTest {
 		Intrebare intrebare = getNewIntrebare();
 		intrebare.setEnunt(getStringOfLength(99, true));
 		appController.addNewIntrebare(intrebare);
+		assert appController.exists(intrebare);
 	}
 
 	@Test
@@ -57,6 +60,7 @@ public class AppControllerTest {
 		Intrebare intrebare = getNewIntrebare();
 		intrebare.setEnunt(getStringOfLength(100, true));
 		appController.addNewIntrebare(intrebare);
+		assert appController.exists(intrebare);
 	}
 
 	@Test(expected = InputValidationFailedException.class)

@@ -1,0 +1,92 @@
+
+=== Clase de echivalenta ===
+
+	C1: Intrebare invalida
+	C2: Intrebare valida inexistenta
+	C3: Intrebare valida duplicat
+	
+=== Teste ECP ===
+
+	=== Setup ===
+	
+		intrebare A1 valida
+		intrebare A2 invalida
+		intrebare A4 valida
+		adaugare A1
+		
+	=== Test 1 Invalidare ===
+	
+		C3
+		adaugare A1
+		asteapta exceptie duplicat
+		
+	=== Test 2 Invalidare ===
+	
+		C1
+		adaugare A2
+		asteapta exceptie date invalide
+		
+	=== Test 3 Validare ===
+	
+		C2
+		adaugare A3
+		verifica ca A3 exista
+		
+		
+=== Criterii BVA === 
+
+	Enunt are lungime de maxim 100 de caractere
+	Domeniu are lungime de maxim 30 de caractere
+	
+	B1 enunt de lungime 99
+	B2 enunt de lungime 100
+	B3 enunt de lungime 101
+	B4 domeniu de lumgime 29
+	B5 domeniu de lungime 30
+	B6 domeniu de lungime 31
+		
+=== Teste BVA ===
+
+	=== Test 1 Validare ===
+	
+		B4
+		adaugare intrebare cu domeniu din 29 de caractere
+		verifica ca intrebarea exista
+
+	=== Test 2 Validare ===
+	
+		B5
+		adaugare intrebare cu domeniu din 30 de caractere
+		verifica ca intrebarea exista
+
+	=== Test 3 Invalidare ===
+	
+		B6
+		adaugare intrebare cu domeniu din 31 de caractere
+		asteapta exceptie date invalide
+
+	=== Test 4 Validare ===
+	
+		B1
+		adaugare intrebare cu enunt din 99 de caractere
+		verifica ca intrebarea exista
+
+	=== Test 5 Validare ===
+	
+		B2
+		adaugare intrebare cu enunt din 100 de caractere
+		verifica ca intrebarea exista
+
+	=== Test 6 Invalidare ===
+	
+		B3
+		adaugare intrebare cu enunt din 101 de caractere
+		asteapta exceptie date invalide
+		
+		
+		
+		
+		
+		
+		
+		
