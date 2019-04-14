@@ -67,10 +67,10 @@ public class AppController {
 		Intrebare intrebare;
 		Test test = new Test();
 		
-		while(testIntrebari.size() != 7){
+		while(testIntrebari.size() != 5){
 			intrebare = intrebariRepository.pickRandomIntrebare();
 			
-			if(testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
+			if(!testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
 				testIntrebari.add(intrebare);
 				domenii.add(intrebare.getDomeniu());
 			}
