@@ -50,6 +50,7 @@ public class CreateTestTest {
 		evaluator.model.Test result = appController.createNewTest();
 
 		assert result != null;
+		assert result.getIntrebari().size() == 5;
 	}
 
 	private Intrebare getIntrebareRandom(String domeniu) {
