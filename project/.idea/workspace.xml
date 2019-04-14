@@ -56,8 +56,8 @@
       <file leaf-file-name="AppController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="772">
+              <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
               <folding>
                 <element signature="e#613#614#0" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/repository/IntrebariRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/whitebox/CreateTestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" />
       </list>
     </option>
   </component>
@@ -563,7 +563,7 @@
       <workItem from="1553010913704" duration="40000" />
       <workItem from="1554154355936" duration="4404000" />
       <workItem from="1554218348594" duration="1986000" />
-      <workItem from="1555245840619" duration="1631000" />
+      <workItem from="1555245840619" duration="2506000" />
     </task>
     <servers />
   </component>
@@ -600,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11330000" />
+    <option name="totallyTimeSpent" value="12205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -645,20 +645,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
@@ -1217,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="772">
+          <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
           <folding>
             <element signature="e#613#614#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
