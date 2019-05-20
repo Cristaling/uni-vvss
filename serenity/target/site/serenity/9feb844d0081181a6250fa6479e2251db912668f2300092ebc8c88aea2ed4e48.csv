@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Invalid login","SUCCESS","2019-05-20T23:44:41.056+03:00[Europe/Athens]","0.0","10.45"
+"Login","Successful login","SUCCESS","2019-05-20T23:44:52.245+03:00[Europe/Athens]","0.0","10.12"
